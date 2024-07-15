@@ -65,6 +65,9 @@ const recDelete =async(req,res)=>{
         res.render("update",{Data:myData})
     }
 }
+const recSearch  = async(req,res)=>{
+        res.render("search")
+}
 module.exports = {
     homePage,
     insertPage,
@@ -72,6 +75,7 @@ module.exports = {
     displayPage,
     studentData,
     updatePage,
-    recDelete
+    recDelete,
+    recSearch
 };
 

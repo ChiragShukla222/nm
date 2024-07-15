@@ -18,6 +18,7 @@ route.post("/studentdata",stuController.studentData)
 
 route.get("/recdelete",stuController.recDelete)
 
+route.get("/search",stuController.recSearch)
 
 
 module.exports=route;
